@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8957E5&height=200&section=header&text=Jebin%20Abraham&fontColor=FFFFFF&fontSize=52&fontAlignY=34&desc=AI%20Engineer%20%E2%80%A2%20Building%20intelligent%20systems%20that%20ship&descAlignY=54&descSize=16&animation=fadeIn" width="100%" alt="Jebin Abraham" />
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0D1117,50:1F6FEB,100:8957E5&height=170&section=header&text=Jebin%20Abraham&fontColor=FFFFFF&fontSize=48&fontAlignY=42&desc=AI%20Engineer%20%E2%80%A2%20Building%20intelligent%20systems%20that%20ship&descAlignY=62&descSize=16" width="100%" alt="Jebin Abraham" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=LLMs%2C+RAG+and+Agentic+AI+systems;Deep+Learning+%7C+Computer+Vision+%7C+NLP;Production-grade+React+%2B+Next.js+frontends;Research+insight+%E2%86%92+engineering+that+ships" alt="What I build" />
 
@@ -186,21 +186,12 @@ models, with separate admin and participant dashboards.
 
 ---
 
-## 📊 GitHub in Numbers
+## 📊 Language Footprint
 
 <div align="center">
 
-<img height="195" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jebin-05&theme=tokyonight" alt="Profile details" />
-
-<img height="180" src="https://streak-stats.demolab.com?user=Jebin-05&theme=tokyonight&hide_border=true&background=1A1B27&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="Contribution streak" />
-
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jebin-05&theme=tokyonight" alt="Repos per language" />
-<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jebin-05&theme=tokyonight" alt="Most committed language" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jebin-05&theme=tokyo-night&bg_color=1A1B27&color=C9D1D9&line=8957E5&point=1F6FEB&hide_border=true&area=true&radius=8" alt="Contribution activity graph" width="100%" />
-
-<img src="https://img.shields.io/github/followers/Jebin-05?style=for-the-badge&logo=github&color=1F6FEB&labelColor=0D1117" alt="Followers"/>
-<img src="https://img.shields.io/github/stars/Jebin-05?style=for-the-badge&logo=github&color=8957E5&labelColor=0D1117" alt="Stars"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jebin-05&theme=tokyonight&v=2" alt="Top languages by repository" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jebin-05&theme=tokyonight&v=2" alt="Most committed language" />
 
 </div>
 
@@ -234,6 +225,6 @@ anything that puts **Tamil-language NLP** on a stronger footing.<br/>If that's y
 
 <i>"Research insight is only worth as much as the system you ship it in."</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E5,50:1F6FEB,100:0D1117&height=120&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:8957E5,50:1F6FEB,100:0D1117&height=90&section=footer" width="100%" alt="" />
 
 </div>
