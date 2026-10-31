@@ -34,6 +34,7 @@ jobs:
 
       - name: Remove trail bar from SVGs
         run: |
+          sudo chown -R "$(id -u):$(id -g)" dist/
           for f in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
             sed -i 's|<rect class="u[^"]*"[^/]*/> *||g' "$f"
             echo "✓ Trail bar removed from $f"
@@ -57,6 +58,7 @@ jobs:
             echo "No changes — skipping commit."
           else
             git commit -m "chore: regenerate snake contribution animation [skip ci]"
+            git pull --rebase origin main
             git push origin main
           fi
         env:
