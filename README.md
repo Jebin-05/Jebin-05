@@ -1,19 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:0D1117,50:1F6FEB,100:8957E5&height=170&section=header&text=Jebin%20Abraham&fontColor=FFFFFF&fontSize=48&fontAlignY=42&desc=AI%20Engineer%20%E2%80%A2%20Building%20intelligent%20systems%20that%20ship&descAlignY=62&descSize=16" width="100%" alt="Jebin Abraham" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8957E5&height=200&section=header&text=Jebin%20Abraham&fontColor=FFFFFF&fontSize=46&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Building%20intelligent%20systems%20that%20ship&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="Jebin Abraham" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=LLMs%2C+RAG+and+Agentic+AI+systems;Deep+Learning+%7C+Computer+Vision+%7C+NLP;Production-grade+React+%2B+Next.js+frontends;Research+insight+%E2%86%92+engineering+that+ships" alt="What I build" />
+<img src="https://avatars.githubusercontent.com/u/153484091?v=4" width="120" style="border-radius:50%;" alt="Jebin Abraham" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=LLMs%2C+RAG+and+Agentic+AI+systems;Deep+Learning+%7C+Computer+Vision+%7C+NLP;Production-grade+React+%2B+Next.js+frontends;Research+insight+%E2%86%92+engineering+that+ships" alt="What I build" />
 
 <br/>
 
 <a href="https://www.linkedin.com/in/jebinabraham2005"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:jebinabraham1804@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://jebinabraham.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://github.com/Jebin-05?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/></a>
 <img src="https://komarev.com/ghpvc/?username=Jebin-05&style=for-the-badge&color=8957E5&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
----
+<br/>
 
 ## 👨‍💻 About Me
 
@@ -35,7 +38,11 @@ I'm an AI engineer who likes owning the whole pipeline — fine-tuning the model
 multi-agent reasoning loop, and building the responsive interface a real person actually touches.
 Most of my work sits at the intersection of **LLMs, retrieval and applied deep learning**, with a
 soft spot for problems specific to my part of the world: Tamil-language AI, citizen access to
-government services, energy systems.
+government services, and energy systems.
+
+What keeps me in this field isn't the novelty of a new model release — it's watching a prototype
+survive contact with real users. I chase that moment deliberately: ship early, measure honestly,
+and rebuild the parts that don't hold up.
 
 <div align="center">
 
@@ -186,12 +193,24 @@ models, with separate admin and participant dashboards.
 
 ---
 
-## 📊 Language Footprint
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jebin-05&theme=tokyonight&v=2" alt="Top languages by repository" />
-<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jebin-05&theme=tokyonight&v=2" alt="Most committed language" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Jebin-05&show_icons=true&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E5&text_color=C9D1D9&ring_color=8957E5" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jebin-05&layout=compact&hide_border=true&bg_color=0D1117&title_color=1F6FEB&text_color=C9D1D9&langs_count=8" alt="Top languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=Jebin-05&hide_border=true&background=0D1117&ring=8957E5&fire=1F6FEB&currStreakLabel=1F6FEB&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub streak stats" width="48%" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jebin-05/Jebin-05/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jebin-05/Jebin-05/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Jebin-05/Jebin-05/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
 
@@ -200,6 +219,8 @@ models, with separate admin and participant dashboards.
 ## 🏆 Achievements
 
 <div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Jebin-05&theme=onedark&no-frame=true&row=1&column=6&margin-w=8&margin-h=8" alt="GitHub Trophies" />
 
 | | |
 | :---: | :--- |
@@ -216,15 +237,17 @@ models, with separate admin and participant dashboards.
 <div align="center">
 
 I'm open to collaborating on **applied AI research, agentic systems and RAG products** — and on
-anything that puts **Tamil-language NLP** on a stronger footing.<br/>If that's your world too, say hi.
+anything that puts **Tamil-language NLP** on a stronger footing. If you're building something that
+needs a model wired into a real product rather than a notebook, that's exactly where I like to be.
 
 <a href="https://www.linkedin.com/in/jebinabraham2005"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="mailto:jebinabraham1804@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://jebinabraham.vercel.app"><img src="https://img.shields.io/badge/View%20Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 
 <br/><br/>
 
 <i>"Research insight is only worth as much as the system you ship it in."</i>
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:8957E5,50:1F6FEB,100:0D1117&height=90&section=footer" width="100%" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E5,50:1F6FEB,100:0D1117&height=100&section=footer&animation=fadeIn" width="100%" alt="" />
 
 </div>
