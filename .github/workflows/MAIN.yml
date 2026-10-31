@@ -1,0 +1,70 @@
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Snake — Light Theme
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Jebin-05
+          outputs: >-
+            dist/github-contribution-grid-snake.svg?color_snake=%238957E5&color_dots=%23ebedf0,%23c6dcf7,%238bb8f0,%234f8ef0,%231f6feb&hide_legend=true
+
+      - name: Generate Snake — Dark Theme
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Jebin-05
+          outputs: >-
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%238957E5&color_dots=%23161b22,%231b2a4a,%2327417a,%233f66c9,%2358a6ff&hide_legend=true
+
+      - name: Remove trail bar from SVGs
+        run: |
+          for f in dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg; do
+            sed -i 's|<rect class="u[^"]*"[^/]*/> *||g' "$f"
+            echo "✓ Trail bar removed from $f"
+          done
+
+      - name: Verify Generated Files
+        run: |
+          ls -lah dist/
+          test -f dist/github-contribution-grid-snake.svg      && echo "✓ Light SVG OK" || exit 1
+          test -f dist/github-contribution-grid-snake-dark.svg && echo "✓ Dark SVG OK"  || exit 1
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit & Push (if changed)
+        run: |
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit."
+          else
+            git commit -m "chore: regenerate snake contribution animation [skip ci]"
+            git push origin main
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-animation
+          path: dist/
+          retention-days: 30
